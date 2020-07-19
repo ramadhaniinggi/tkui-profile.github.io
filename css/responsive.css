@@ -1,0 +1,183 @@
+/* *laptop ukuran m */
+@media all and (max-width: 1024px) {
+  /* !layanan */
+  .circle-planLayanan {
+    top: 471%;
+  }
+
+  /* !latar */
+  .circle-planLatar {
+    top: 135%;
+  }
+
+  /* !visi misi */
+  .circle-planVisi {
+    top: 95%;
+  }
+}
+/* *tablet */
+@media all and (max-width: 768px) {
+  /* !kontak */
+  .kontak-company {
+    font-size: 18px;
+  }
+  .kontak-address {
+    font-size: 16px;
+  }
+  .sub-kontak {
+    font-size: 30px;
+  }
+  .kontak-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .kontak-cs {
+    width: 120px;
+    height: 120px;
+  }
+  .kontak-content {
+    margin-bottom: 120px;
+  }
+  /* !footer */
+  .orange {
+    width: 52.7%;
+  }
+
+  /* !layanan */
+  .img-wrap {
+    display: none;
+  }
+  .circle-planLayanan {
+    top: 366%;
+  }
+
+  /* !latar */
+  .circle-planLatar {
+    top: 159%;
+  }
+
+  /* !visi misi */
+  .sub-visi {
+    font-size: 30px;
+  }
+  .circle-planVisi {
+    top: 101%;
+  }
+}
+
+/* *mobile ukuran l */
+@media all and (max-width: 425px) {
+  /* !kontak */
+  .kontak-logo {
+    display: none;
+  }
+  .kontak-address,
+  .kontak-company {
+    text-align: center;
+  }
+  .sub-kontak,
+  .sub-layanan,
+  .sub-visi {
+    font-size: 25px;
+  }
+  .cs-wrapper {
+    padding-top: 20px;
+  }
+  .kontak-content {
+    margin-bottom: 83px;
+  }
+  /* !footer */
+
+  .orange {
+    height: 8px;
+  }
+  .green {
+    height: 28px;
+  }
+  .blue {
+    height: 50px;
+  }
+
+  .circle-plan {
+    height: 30px;
+    width: 80px;
+    top: 94%;
+  }
+
+  .logo-circle-plan {
+    width: 40px;
+    height: 40px;
+  }
+  /* !layanan */
+  .layanan-content,
+  .visi-content {
+    margin-top: 50px;
+  }
+  .circle-planLayanan {
+    height: 30px;
+    width: 80px;
+    top: 492%;
+  }
+  .logo-circle-planLayanan {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* !latar */
+  .circle-planLatar {
+    height: 30px;
+    width: 80px;
+    top: 117%;
+  }
+  .logo-circle-planLatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .blockquote {
+    font-size: 12px;
+  }
+
+  /* !visi misi */
+  .circle-planVisi {
+    height: 30px;
+    width: 80px;
+    top: 120%;
+  }
+  .logo-circle-planVisi {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* *mobile ukuran m */
+@media all and (max-width: 375px) {
+  /* !layanan */
+  .circle-planLayanan {
+    top: 543%;
+  }
+  /* !latar */
+  .circle-planLatar {
+    top: 126%;
+  }
+  /* !visi misi */
+  .circle-planVisi {
+    top: 132%;
+  }
+}
+/* *mobile ukuran s */
+@media all and (max-width: 320px) {
+  /* !layanan */
+  .circle-planLayanan {
+    top: 629%;
+  }
+  /* !latar */
+  .circle-planLatar {
+    top: 158%;
+  }
+
+  /* !visi misi */
+  .circle-planVisi {
+    top: 148%;
+  }
+}

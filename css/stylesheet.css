@@ -1,0 +1,289 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("Roboto-Regular.ttf") format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto-Regular";
+}
+
+.container {
+  max-width: 1170px;
+}
+
+/* ! navbar */
+nav {
+  text-transform: uppercase;
+}
+
+/* ! home > main */
+.brand-logo {
+  height: 200px;
+  width: 200px;
+}
+
+.logo-wrapper {
+  margin: 50px auto;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.main-wrapper {
+  background: url("../img/background_2.jpg");
+  background-size: cover;
+  padding: 120px 0 20px 0;
+}
+
+.address-wrapper {
+  margin-top: 99px;
+}
+
+.address-name,
+.company-name {
+  text-shadow: 2px 2px 4px white;
+}
+
+.company-name {
+  font-weight: bolder;
+}
+
+/* ! kontak */
+.kontak-title,
+.layanan-title,
+.visi-title {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: orange; /* For browsers that do not support gradients */
+  background-image: linear-gradient(
+    to right,
+    orange,
+    white
+  ); /* Standard syntax (must be last) */
+}
+
+.kontak-cs {
+  width: 150px;
+  height: 150px;
+}
+
+.cs-wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.kontak-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.kontak-content {
+  margin-bottom: 15px;
+}
+
+.orange {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 165, 0, 0),
+    rgba(255, 165, 0, 1)
+  ); /* Standard syntax (must be last) */
+  height: 10px;
+  width: 51.57%;
+  border: 2px solid white;
+}
+.green {
+  background-image: linear-gradient(
+    to right,
+    rgba(106, 250, 106, 0),
+    rgba(106, 250, 106, 1)
+  ); /* Standard syntax (must be last) */
+  height: 50px;
+  width: 50%;
+  border: 2px solid white;
+  transform: skew(-40deg);
+}
+.blue {
+  background-image: linear-gradient(
+    to right,
+    rgba(132, 160, 250, 0),
+    rgba(132, 160, 250, 1)
+  ); /* Standard syntax (must be last) */
+  height: 80px;
+  width: 100%;
+  border: 2px solid white;
+}
+
+.circle-plan {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: white;
+  right: 3%;
+  top: 88%;
+}
+
+.logo-circle-plan {
+  width: 80px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  top: -80%;
+  right: 25%;
+}
+
+footer {
+  padding-top: 40px;
+}
+
+/* !layanan */
+.sub-imgLayanan {
+  height: 80px;
+  width: 150px;
+  margin: 10px 0;
+}
+
+.img-wrap {
+  padding: 0 50px;
+}
+
+.img-layanan1 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(136, 136, 136, 1),
+    rgba(136, 136, 136, 0)
+  );
+}
+
+.layanan-title,
+.kontak-title {
+  margin-top: 100px;
+}
+
+.circle-planLayanan {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: white;
+  right: 3%;
+  top: 457%;
+}
+
+.logo-circle-planLayanan {
+  width: 80px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  top: -80%;
+  right: 25%;
+}
+
+/* !latar belakang */
+.latar-content {
+  margin-top: 100px;
+  background: rgb(255, 165, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 165, 0, 1) 0%,
+    rgba(255, 255, 255, 1) 15%
+  );
+}
+
+.circle-planLatar {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: white;
+  right: 3%;
+  top: 129%;
+}
+
+.logo-circle-planLatar {
+  width: 80px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  top: -80%;
+  right: 25%;
+}
+
+blockquote {
+  font-family: "Roboto-Regular";
+  position: relative;
+  margin: 0.5em;
+  padding: 0.5em 2em 0.5em 3em;
+}
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+blockquote:before {
+  font-family: "Roboto-Regular";
+  position: absolute;
+  font-size: 6em;
+  line-height: 1;
+  top: 0;
+  left: 0;
+  content: "\201C";
+}
+blockquote:after {
+  font-family: "Roboto-Regular";
+  position: absolute;
+  /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+  float: right;
+  font-size: 6em;
+  line-height: 1;
+  right: 0;
+  bottom: -0.5em;
+  content: "\201D";
+}
+blockquote footer {
+  padding: 0 2em 0 0;
+  text-align: right;
+}
+blockquote cite:before {
+  content: "\2013";
+}
+
+/* !visi misi */
+.visi-title {
+  margin-top: 100px;
+}
+
+.circle-planVisi {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: white;
+  right: 3%;
+  top: 90%;
+}
+
+.logo-circle-planVisi {
+  width: 80px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  top: -80%;
+  right: 25%;
+}
